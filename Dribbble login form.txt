@@ -1,0 +1,557 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex gap-5 pr-10 bg-white max-md:flex-wrap max-md:pr-5">
+      <div className="flex flex-col px-20 py-16 bg-amber-200 max-md:px-5 max-md:max-w-full">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d43677cb2f41fff2b5dbff38cdf21ea9c86867d5b7699df182c833a976b3d3a?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+          className="max-w-full aspect-[5.56] w-[147px]"
+        />
+        <div className="mt-7 text-5xl font-semibold text-yellow-800 max-md:max-w-full max-md:text-4xl">
+          Discover the world’s top
+          <br />
+          Designers & Creatives.
+        </div>
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/395056674c4935c7e3f9154a5a4509c2417bbea6a3c830a79e9f7aa19d83fc5e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+          className="mt-6 w-full aspect-[1.16] max-md:max-w-full"
+        />
+        <div className="mt-20 text-2xl text-yellow-700 max-md:mt-10 max-md:max-w-full">
+          Art by Archana
+        </div>
+      </div>
+      <div className="flex-auto my-auto max-md:max-w-full">
+        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div className="flex flex-col w-[70%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col grow mt-14 max-md:mt-10 max-md:max-w-full">
+              <div className="text-3xl font-extrabold text-gray-950 max-md:max-w-full">
+                Sign up to dribbble
+              </div>
+              <div className="mt-11 text-xl font-semibold text-red-400 max-md:mt-10 max-md:max-w-full">
+                . Username has already been taken
+              </div>
+              <div className="mt-12 max-md:mt-10 max-md:max-w-full">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-[58%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col grow text-2xl font-semibold whitespace-nowrap text-gray-950 max-md:mt-10">
+                      <div>Name</div>
+                      <div className="justify-center items-start px-5 py-6 mt-7 text-xl rounded-md bg-zinc-100 max-md:pr-5">
+                        John
+                      </div>
+                      <div className="mt-11 max-md:mt-10">Email</div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col ml-5 w-[42%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col font-semibold whitespace-nowrap max-md:mt-10">
+                      <div className="flex gap-2 text-2xl text-gray-950">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b0536c14c314a47e2a466bad03aee3d497eb8f937f309092d2ee2c6b901645c9?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                          className="shrink-0 self-start w-4 aspect-square"
+                        />
+                        <div className="flex-auto">Username</div>
+                      </div>
+                      <div className="justify-center items-start px-6 py-6 mt-7 text-xl text-red-400 bg-rose-50 rounded-md max-md:px-5">
+                        John
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="justify-center items-start px-6 py-5 mt-6 text-xl font-semibold whitespace-nowrap rounded-md bg-zinc-100 text-gray-950 max-md:px-5 max-md:max-w-full">
+                account@refero.design
+              </div>
+              <div className="mt-12 text-2xl font-semibold text-gray-950 max-md:mt-10 max-md:max-w-full">
+                Password
+              </div>
+              <div className="justify-center items-start px-6 py-6 mt-5 text-xl font-semibold rounded-md bg-zinc-100 text-neutral-400 max-md:px-5 max-md:max-w-full">
+                6+ characters
+              </div>
+              <div className="flex gap-5 mt-9 text-base font-semibold text-slate-500 max-md:flex-wrap">
+                <div className="shrink-0 my-auto bg-white rounded shadow-sm h-[27px] w-[27px]" />
+                <div className="flex-auto max-md:max-w-full">
+                  Creating an account means you’re okay with our{" "}
+                  <span className="text-slate-500">Terms of</span>
+                  <br />
+                  <span className="text-slate-500">
+                    Service, Privacy Policy
+                  </span>{" "}
+                  and our default{" "}
+                  <span className="text-slate-500">Notification</span>
+                  <br />
+                  <span className="text-slate-500">Settings.</span>
+                </div>
+              </div>
+              <div className="justify-center self-start px-12 py-6 mt-9 text-xl font-semibold text-white bg-pink-500 rounded-md max-md:px-5">
+                Create Account
+              </div>
+              <div className="mt-10 text-base font-semibold text-indigo-500 max-md:mt-10 max-md:max-w-full">
+                This site protected by reCAPTCHA and the Google
+                <br />
+                <span className="text-indigo-500">Privacy Policy</span> and{" "}
+                <span className="text-indigo-500">Terms of Service</span> apply.
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col ml-5 w-[30%] max-md:ml-0 max-md:w-full">
+            <div className="text-base font-semibold text-slate-500">
+              Already a member? <span className="text-slate-500">Sign In</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col items-center px-20 py-20 bg-white max-md:px-5">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/68cf29546ab70b301b24e31b15e023925731216bc2520dac87607612df68ccef?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+        className="self-start max-w-full aspect-[5.56] w-[147px]"
+      />
+      <div className="mt-24 text-4xl font-extrabold text-gray-950 max-md:mt-10 max-md:max-w-full">
+        Welcome! Let’s create your profile
+      </div>
+      <div className="mt-10 text-base font-semibold text-zinc-400">
+        Let others get to know you better! You can do these later
+      </div>
+      <div className="self-start mt-14 ml-80 text-2xl font-extrabold text-gray-950 max-md:mt-10 max-md:ml-2.5">
+        Add an avatar
+      </div>
+      <div className="mt-24 max-w-full w-[542px] max-md:mt-10">
+        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
+            <div className="flex justify-center items-center px-16 mx-auto bg-white rounded-full border-2 border-dashed border-zinc-400 h-[187px] stroke-[2px] w-[187px] max-md:px-5 max-md:mt-10">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/018385de9a3452c742ae17c9dbc1de70557f156be09eb5fbd357d77ed0d941c2?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                className="aspect-[1.14] w-[34px]"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col mt-5 text-xl font-semibold max-md:mt-10">
+              <div className="justify-center px-12 py-5 bg-white rounded-md border-2 border-solid border-zinc-400 text-gray-950 max-md:pr-6 max-md:pl-5">
+                Choose image
+              </div>
+              <div className="mt-8 text-zinc-400">
+                &gt;Or choose one of our defaults
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-12 text-2xl font-extrabold text-gray-950 max-md:mt-10">
+        Add your location
+      </div>
+      <div className="self-start mt-5 ml-80 text-xl font-semibold text-zinc-400 max-md:ml-2.5">
+        Enter a location
+      </div>
+      <div className="shrink-0 mt-3.5 max-w-full h-0.5 border border-solid bg-neutral-400 border-neutral-400 w-[571px]" />
+      <div className="justify-center px-12 py-6 mt-10 text-xl font-semibold text-white bg-pink-300 rounded-md max-md:px-5">
+        Create Account
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col items-center px-20 py-20 bg-white max-md:px-5">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a1e08f5164e1e424a9a9c787a9ba9efeaa14b05dc1d96da83762c9fd2f04c344?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+        className="self-start max-w-full aspect-[5.56] w-[147px]"
+      />
+      <div className="mt-24 text-4xl font-extrabold text-gray-950 max-md:mt-10 max-md:max-w-full">
+        Welcome! Let’s create your profile
+      </div>
+      <div className="mt-10 text-base font-semibold text-zinc-400">
+        Let others get to know you better! You can do these later
+      </div>
+      <div className="self-start mt-14 ml-80 text-2xl font-extrabold text-gray-950 max-md:mt-10 max-md:ml-2.5">
+        Add an avatar
+      </div>
+      <div className="mt-24 max-w-full w-[542px] max-md:mt-10">
+        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/95611e50acf00449f9af8a2b622f6c4cef06b4f225551b0a633f172db663888b?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+              className="grow shrink-0 max-w-full aspect-[1.04] fill-[url(<path-to-image>)_lightgray_50%_/_cover_no-repeat] w-[190px] max-md:mt-10"
+            />
+          </div>
+          <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col mt-5 text-xl font-semibold max-md:mt-10">
+              <div className="justify-center px-12 py-5 bg-white rounded-md border-2 border-solid border-zinc-400 text-gray-950 max-md:pr-6 max-md:pl-5">
+                Choose image
+              </div>
+              <div className="mt-8 text-zinc-400">
+                &gt;Or choose one of our defaults
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-12 text-2xl font-extrabold text-gray-950 max-md:mt-10">
+        Add your location
+      </div>
+      <div className="self-start mt-5 ml-80 text-xl font-semibold text-zinc-400 max-md:ml-2.5">
+        Enter a location
+      </div>
+      <div className="shrink-0 mt-3.5 max-w-full h-0.5 border border-solid bg-neutral-400 border-neutral-400 w-[571px]" />
+      <div className="justify-center px-12 py-6 mt-10 text-xl font-semibold text-white bg-pink-300 rounded-md max-md:px-5">
+        Create Account
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col items-center px-20 py-20 bg-white max-md:px-5">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bfd1e6c87e3d5143491baec67e6607bbb982186a8208aa69d592dc3ab8ee4a07?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+        className="self-start max-w-full aspect-[5.56] w-[147px]"
+      />
+      <div className="mt-24 text-4xl font-extrabold text-gray-950 max-md:mt-10 max-md:max-w-full">
+        What brings you to dribbble?
+      </div>
+      <div className="mt-9 text-base font-semibold text-zinc-400 max-md:max-w-full">
+        Select the options that describe you. Don’t worry, you can explore other
+        options later.
+      </div>
+      <div className="mt-24 w-full max-w-[1042px] max-md:mt-10 max-md:max-w-full">
+        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col grow items-center px-16 py-10 w-full text-base font-extrabold text-center text-black bg-white rounded-3xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-10">
+              <img
+                loading="lazy"
+                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0bf219c49665354c800d2a26f6dd0a0226850bab52b9a96867d8b050c7f89ab4?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                className="aspect-[1.54] w-[190px]"
+              />
+              <div className="self-stretch mt-5">
+                I’m a designer looking to share my work
+              </div>
+              <div className="shrink-0 mt-5 bg-white rounded-full border-2 border-solid border-zinc-400 h-[34px] stroke-[2px] w-[34px]" />
+            </div>
+          </div>
+          <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col grow items-center px-7 pt-6 pb-11 w-full text-base font-extrabold text-center text-black bg-white rounded-3xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-10">
+              <img
+                loading="lazy"
+                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9b304737a177da321d3be39479125583dcf94354c2f45d0a6bcefaec92a6e625?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                className="self-stretch w-full aspect-[1.59]"
+              />
+              <div className="mt-1.5">I’m looking to hire a designer</div>
+              <div className="shrink-0 mt-5 bg-white rounded-full border-2 border-solid border-zinc-400 h-[34px] stroke-[2px] w-[34px]" />
+            </div>
+          </div>
+          <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col grow items-center px-8 pt-5 pb-11 w-full text-base font-extrabold text-center text-black bg-white rounded-3xl border-2 border-solid border-zinc-400 max-md:px-5 max-md:mt-10">
+              <img
+                loading="lazy"
+                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4ebf8d22b27115861d7343d3da28c1da47cf3ec0009000a0c4bf07a0499795c?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                className="self-stretch w-full aspect-[1.56]"
+              />
+              <div className="mt-1.5">I’m looking for design inspiration</div>
+              <div className="shrink-0 mt-5 bg-white rounded-full border-2 border-solid border-zinc-400 h-[34px] stroke-[2px] w-[34px]" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="justify-center items-center px-16 py-6 mt-32 max-w-full text-xl font-semibold text-white whitespace-nowrap bg-pink-300 rounded-md w-[245px] max-md:px-5 max-md:mt-10">
+        Finish
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+import * as React from "react";
+
+const SocialMediaIcons = () => {
+  const socialMediaIcons = [
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/1ef80a07d903e408240c3c7f0c741a96d9e877e1586e4818750b9eaac66ecda1?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&", alt: "Social media icon 1" },
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/9954113515548bac8e38d60b588e11c0338248e98536b5507f3b9a1e773ef0f8?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&", alt: "Social media icon 2" },
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/5c5d24fa4dcedd276253aabeff42696b035465fd1e75dd39c3fb88ce4b8cbcad?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&", alt: "Social media icon 3" },
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/57772cdc3c5103470373311e76bb860b5460be972053994763d9d5b26ddb727e?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&", alt: "Social media icon 4" },
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ee016aeec18a81d97808055c3d72d79ba804ced40d5edf570ee7a0c4b1ccf46a?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&", alt: "Social media icon 5" },
+  ];
+
+  return (
+    <div className="flex gap-4 pr-20 mt-5 max-md:pr-5">
+      {socialMediaIcons.map((icon, index) => (
+        <img
+          key={index}
+          loading="lazy"
+          src={icon.src}
+          alt={icon.alt}
+          className="shrink-0 aspect-square w-[18px]"
+        />
+      ))}
+    </div>
+  );
+};
+
+const FooterColumn = ({ title, links }) => {
+  return (
+    <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+      <div className="flex flex-col text-sm font-semibold text-gray-700 max-md:mt-10">
+        <div className="font-bold text-gray-900">{title}</div>
+        {links.map((link, index) => (
+          <div key={index} className="mt-5">
+            {link}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col items-center bg-white">
+      <header className="flex flex-col self-stretch pt-5 w-full text-sm font-medium bg-white max-md:max-w-full">
+        <nav className="flex gap-5 justify-between self-center w-full max-w-[1380px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex gap-5 justify-center my-auto text-zinc-500 max-md:flex-wrap">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0769fe3b5c99bddff82d3f2cf63120922afee7b32c8a1cd5ff72f04db90b7f3d?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+              alt="Logo"
+              className="shrink-0 max-w-full aspect-[4.17] w-[100px]"
+            />
+            <div className="flex gap-5 pr-5 my-auto max-md:flex-wrap">
+              <div>Inspiration</div>
+              <div>Find Work</div>
+              <div>Learn Design</div>
+              <div>Go Pro</div>
+              <div>Hire Designers</div>
+            </div>
+          </div>
+          <div className="flex gap-3 justify-center px-5 whitespace-nowrap">
+            <div className="flex gap-5 justify-center px-4 py-2.5 rounded-lg bg-zinc-100 text-zinc-400">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e4da9faeefd77586c46ece1a4cf4d6b139fcf7b6c8a3f437cc3b13fe82c5162f?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                alt="Search icon"
+                className="shrink-0 self-start w-4 aspect-square"
+              />
+              <div>Search</div>
+            </div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/403751d7696cb57d7ef2bc0767b2f854e7ab9d67b2444f0d1c12766e19b34fda?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+              alt="Icon 1"
+              className="shrink-0 my-auto w-5 aspect-square"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/963cdf974a7527e132bbe5dbd83f2372f2e754a090d21bdc3580ac8269b9fa0f?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+              alt="Icon 2"
+              className="shrink-0 my-auto w-5 aspect-square"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/06af60f00415a01af34606fff3e2dd42245605b66c83783b51e4acf89816057a?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+              alt="User avatar"
+              className="shrink-0 self-start w-9 aspect-square fill-[url(<path-to-image>)_lightgray_50%_/_cover_no-repeat]"
+            />
+            <button className="justify-center px-4 py-2.5 text-center text-gray-50 bg-pink-500 rounded-lg">
+              Upload
+            </button>
+          </div>
+        </nav>
+        <div className="mt-5 w-full border border-solid bg-zinc-100 border-zinc-100 min-h-[1px] max-md:max-w-full" />
+      </header>
+      <main>
+        <h1 className="mt-28 text-4xl font-extrabold text-gray-950 max-md:mt-10 max-md:max-w-full">
+          Please verify your email...
+        </h1>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/becc638b8c78303eeb22b17d04a3d670df4884042ae0c00017f2dd5f776061d7?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+          alt="Verification image"
+          className="mt-8 aspect-[1.49] w-[92px]"
+        />
+        <p className="mt-10 text-base font-semibold text-zinc-400 max-md:mt-10 max-md:max-w-full">
+          Please verify your email address. We've sent a confirmation email to:
+        </p>
+        <p className="mt-4 text-xl font-semibold text-gray-950">
+          account@refero.design
+        </p>
+        <p className="mt-4 text-base font-semibold text-zinc-400 max-md:max-w-full">
+          Click the confirmation link in that email to begin using Dribbble.
+        </p>
+        <p className="mt-4 text-base font-semibold text-center text-pink-500 w-[644px] max-md:max-w-full">
+          Didn't receive the email? Check your Spam folder, it may have been
+          caught by a filter. If you still don't see it, you can{" "}
+          <span className="text-pink-500">resend the confirmation email.</span>
+        </p>
+        <p className="mt-7 text-base font-semibold text-pink-500">
+          Wrong email address? <span className="text-pink-500">Change it</span>.
+        </p>
+      </main>
+      <footer className="flex justify-center items-center self-stretch px-16 py-12 mt-40 w-full bg-gray-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+        <div className="flex flex-col w-full max-w-[1170px] max-md:max-w-full">
+          <div className="mx-6 max-md:mr-2.5 max-md:max-w-full">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+              <div className="flex flex-col w-[27%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col max-md:mt-10">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/08392be9ee8074ad60c8bc9aa9bdcb69d8af2bd15a98d8557ded246d6359ad71?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+                    alt="Logo"
+                    className="max-w-full aspect-[4] w-[104px]"
+                  />
+                  <p className="mt-5 text-sm font-medium text-gray-700">
+                    Dribbble is the world's leading community for creatives to
+                    share, grow, and get hired.
+                  </p>
+                  <SocialMediaIcons />
+                </div>
+              </div>
+              <div className="flex flex-col ml-5 w-[73%] max-md:ml-0 max-md:w-full">
+                <div className="grow justify-center max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <FooterColumn
+                      title="For designers"
+                      links={[
+                        "Go Pro!",
+                        "Explore design work",
+                        "Design blog",
+                        "Overtime podcast",
+                        "Dribbble meetups",
+                        "Playoffs",
+                        "Weekly Warm-Up",
+                        "Code of conduct",
+                      ]}
+                    />
+                    <FooterColumn
+                      title="Hire designers"
+                      links={[
+                        "Post a job opening",
+                        "Post a freelance project",
+                        "Search for designers",
+                      ]}
+                    />
+                    <FooterColumn
+                      title="Brands"
+                      links={["Advertise with us"]}
+                    />
+                    <FooterColumn
+                      title="Company"
+                      links={[
+                        "About",
+                        "Careers",
+                        "Support",
+                        "Media kit",
+                        "Dribbble shop",
+                        "Testimonials",
+                        "API",
+                        "Terms of service",
+                        "Privacy policy",
+                      ]}
+                    />
+                    <FooterColumn
+                      title="Directories"
+                      links={[
+                        "Design jobs",
+                        "Designers for hire",
+                        "Tags",
+                        "Places",
+                      ]}
+                    />
+                    <FooterColumn
+                      title="Design assets"
+                      links={["Shop Creative Market"]}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div className="shrink-0 mt-16 h-0.5 border-2 border-solid bg-zinc-100 border-zinc-100 maxmd:mt-10 max-md:max-w-full" />
+      <div className="flex gap-5 justify-center self-center mt-16 max-w-full text-sm font-semibold w-[860px] max-md:flex-wrap max-md:mt-10">
+        <div className="flex-auto my-auto text-zinc-500">
+          © 2021 Dribbble. All rights reserved.
+        </div>
+        <div className="flex flex-1 gap-2 justify-center items-center">
+          <div className="self-stretch my-auto text-gray-900">15,240,042</div>
+          <div className="self-stretch my-auto text-zinc-500">
+            shots dribbbled
+          </div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f30eea442c290a9a62de3102d95ba01d0ba9cf795e94daeb8f902cee6428fe97?apiKey=1e6f52bc2fb141c79c2f1e6e169e8ee2&"
+            alt="Basketball icon"
+            className="shrink-0 self-stretch w-6 aspect-square"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default MyComponent;
